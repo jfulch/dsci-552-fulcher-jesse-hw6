@@ -132,17 +132,3 @@ SMOTE case.
 
 ISLR 5.4.2, 6.8.4, 8.4.4, 9.7.2
 
-## Assignment Notes
-
-[^1]: In reality, when we have a model and we want to fill in missing values,
-    we do not have access to training data, so we only use the statistics of
-    test data to fill in the missing values.
-
-[^2]: They are called data imputation techniques.
-
-[^3]: You are welcome to test more than one method.
-
-[^4]: If you did not start doing this homework on time, downsample the common
-    class to 6,000 so that you have 12,000 data points after applying SMOTE.
-    Remember that the purpose of this homework is to apply SMOTE to the whole
-    training set, not the downsampled dataset.
